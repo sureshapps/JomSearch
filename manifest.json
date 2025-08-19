@@ -1,0 +1,90 @@
+{
+  "name": "JomSearch",
+  "short_name": "JomSearch",
+  "description": "Search Beyond Limits.",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "1080x1920"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sureshapps/LifeMeter/refs/heads/main/iLifemeter.png",
+      "type": "image/png",
+      "sizes": "360x640"
+    }
+  ],
+  "start_url": "https://sureshapps.github.io/JomSearch",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
