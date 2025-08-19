@@ -83,8 +83,8 @@
       "sizes": "360x640"
     }
   ],
-  "start_url": "https://sureshapps.github.io/JomSearch",
+  "start_url": "https://jomsearch.netlify.app",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000"
+  "theme_color": "#b7ff00"
 }
