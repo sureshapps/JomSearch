@@ -4,94 +4,94 @@
 
 @layer base {
   :root {
-    --background: 220 30% 8%;          /* dark base so neon glows */
-    --foreground: 210 100% 97%;        /* bright white-ish text */
+    --background: 210 25% 98%;       /* light gray background */
+    --foreground: 220 15% 20%;       /* dark gray text */
 
-    --card: 220 25% 12%;
-    --card-foreground: 210 100% 97%;
+    --card: 0 0% 100%;               /* white card */
+    --card-foreground: 220 15% 20%;
 
-    --popover: 220 25% 12%;
-    --popover-foreground: 210 100% 97%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 20%;
 
-    --primary: 180 100% 65%;           /* neon cyan */
-    --primary-foreground: 210 100% 97%;
+    --primary: 220 80% 56%;          /* flat blue */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 300 100% 70%;         /* neon pink */
-    --secondary-foreground: 210 100% 97%;
+    --secondary: 170 60% 45%;        /* flat teal/green */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 20% 18%;
-    --muted-foreground: 220 15% 70%;
+    --muted: 210 20% 92%;            /* muted gray */
+    --muted-foreground: 220 10% 45%;
 
-    --accent: 280 100% 70%;            /* neon purple */
-    --accent-foreground: 210 100% 97%;
+    --accent: 340 70% 50%;           /* flat red-pink */
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 90% 60%;
-    --destructive-foreground: 210 100% 97%;
+    --destructive: 0 70% 50%;        /* flat red */
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 25%;
-    --input: 220 20% 18%;
-    --ring: 180 100% 65%;
+    --border: 210 20% 85%;           /* light gray borders */
+    --input: 210 20% 96%;
+    --ring: 220 80% 56%;
 
-    /* Neon gradient + glow */
-    --search-gradient: linear-gradient(135deg, hsl(180 100% 65%), hsl(300 100% 70%));
-    --search-card: 200 100% 50%;
-    --search-card-hover: 200 100% 60%;
-    --search-shadow: 0 0 15px hsl(180 100% 65% / 0.6);
-    --search-shadow-hover: 0 0 25px hsl(300 100% 70% / 0.8);
+    /* Search */
+    --search-gradient: none;         /* flat, no gradient */
+    --search-card: 220 80% 56%;
+    --search-card-hover: 220 70% 60%;
+    --search-shadow: none;
+    --search-shadow-hover: none;
 
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-smooth: all 0.25s ease;
+    --transition-bounce: all 0.35s ease;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 220 30% 10%;
-    --sidebar-foreground: 210 100% 97%;
-    --sidebar-primary: 180 100% 65%;
-    --sidebar-primary-foreground: 210 100% 97%;
-    --sidebar-accent: 300 100% 70%;
-    --sidebar-accent-foreground: 210 100% 97%;
-    --sidebar-border: 220 20% 25%;
-    --sidebar-ring: 180 100% 65%;
+    /* Sidebar */
+    --sidebar-background: 210 25% 98%;
+    --sidebar-foreground: 220 15% 20%;
+    --sidebar-primary: 220 80% 56%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 170 60% 45%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 210 20% 85%;
+    --sidebar-ring: 220 80% 56%;
   }
 
   .dark {
-    /* For "dark neon mode" just keep it consistent, slightly deeper */
-    --background: 220 40% 6%;
-    --foreground: 210 100% 98%;
+    --background: 220 15% 12%;
+    --foreground: 0 0% 100%;
 
-    --card: 220 30% 10%;
-    --card-foreground: 210 100% 98%;
+    --card: 220 15% 15%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 220 30% 10%;
-    --popover-foreground: 210 100% 98%;
+    --popover: 220 15% 15%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 180 100% 65%;
-    --primary-foreground: 210 100% 98%;
+    --primary: 220 80% 56%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 300 100% 70%;
-    --secondary-foreground: 210 100% 98%;
+    --secondary: 170 60% 45%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 20% 15%;
+    --muted: 220 15% 20%;
     --muted-foreground: 220 15% 70%;
 
-    --accent: 280 100% 70%;
-    --accent-foreground: 210 100% 98%;
+    --accent: 340 70% 50%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 90% 60%;
-    --destructive-foreground: 210 100% 98%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 20%;
-    --input: 220 20% 18%;
-    --ring: 300 100% 70%;
+    --border: 220 15% 25%;
+    --input: 220 15% 20%;
+    --ring: 220 80% 56%;
 
-    --sidebar-background: 220 30% 8%;
-    --sidebar-foreground: 210 100% 98%;
-    --sidebar-primary: 180 100% 65%;
-    --sidebar-primary-foreground: 210 100% 98%;
-    --sidebar-accent: 300 100% 70%;
-    --sidebar-accent-foreground: 210 100% 98%;
-    --sidebar-border: 220 20% 20%;
-    --sidebar-ring: 180 100% 65%;
+    --sidebar-background: 220 15% 12%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 220 80% 56%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 170 60% 45%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 15% 25%;
+    --sidebar-ring: 220 80% 56%;
   }
 }
 
