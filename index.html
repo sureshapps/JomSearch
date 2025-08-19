@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glow Search - Discover the Web</title>
+    <title>JomSearch - Discover the Web</title>
     <meta name="description" content="Powerful web search engine with clean interface and accurate results. Search the web instantly with Glow Search." />
     <meta name="author" content="Glow Search" />
     <meta name="keywords" content="search engine, web search, google search, search results, online search" />
@@ -23,4 +23,27 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+ <!-- Footer -->
+  <footer class="bg-blue-950 text-gray-400 py-6">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      
+      <!-- Left Side -->
+      <p class="text-sm">&copy; <span id="year"></span> Suresh Kaleyannan. All rights reserved.</p>
+      
+      <!-- Right Side -->
+      <div class="flex space-x-6 mt-4 md:mt-0">
+        <a href="#" class="hover:text-lime-400">Privacy Policy</a>
+        <a href="#" class="hover:text-line-400">Terms of Service</a>
+        <a href="#" class="hover:text-line-400">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Auto update year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+  </script>
+   <script src="https://cdn.tailwindcss.com"></script>
+</html> 
 </html>
