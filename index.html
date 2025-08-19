@@ -17,33 +17,48 @@
     <meta name="twitter:title" content="Glow Search - Discover the Web" />
     <meta name="twitter:description" content="Powerful web search engine with clean interface and accurate results" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
- <!-- Footer -->
-  <footer class="bg-lime-200 text-gray-800 py-6">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-      
-      <!-- Left Side -->
-      <p class="text-sm text-blue-600">&copy; <span id="year"></span> Suresh Kaleyannan. All rights reserved.</p>
-      
-      <!-- Right Side -->
-      <div class="flex space-x-6 mt-4 md:mt-0">
-        <a href="#" class="hover:text-white">Privacy Policy</a>
-        <a href="#" class="hover:text-white">Terms of Service</a>
-        <a href="#" class="hover:text-white">Contact</a>
-      </div>
+  <body class="bg-white text-gray-900">
+    <!-- Splash Screen -->
+    <div id="splash" class="fixed inset-0 bg-blue-600 flex flex-col items-center justify-center text-white z-50">
+      <h1 class="text-5xl font-extrabold animate-pulse">JomSearch</h1>
+      <p class="mt-4 text-lg opacity-80">Discover the Web</p>
     </div>
-  </footer>
 
-  <script>
-    // Auto update year
-    document.getElementById("year").textContent = new Date().getFullYear();
+    <!-- Main App -->
+    <div id="root" class="hidden"></div>
 
-  </script>
-   <script src="https://cdn.tailwindcss.com"></script>
-</html> 
+    <!-- Footer -->
+    <footer class="bg-lime-200 text-gray-800 py-6 hidden" id="footer">
+      <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+        <!-- Left Side -->
+        <p class="text-sm text-blue-600">&copy; <span id="year"></span> Suresh Kaleyannan. All rights reserved.</p>
+
+        <!-- Right Side -->
+        <div class="flex space-x-6 mt-4 md:mt-0">
+          <a href="#" class="hover:text-white">Privacy Policy</a>
+          <a href="#" class="hover:text-white">Terms of Service</a>
+          <a href="#" class="hover:text-white">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.tsx"></script>
+
+    <script>
+      // Auto update year
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // Hide splash after 5 seconds
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          document.getElementById("splash").classList.add("hidden");
+          document.getElementById("root").classList.remove("hidden");
+          document.getElementById("footer").classList.remove("hidden");
+        }, 5000); // 5 seconds
+      });
+    </script>
+  </body>
 </html>
