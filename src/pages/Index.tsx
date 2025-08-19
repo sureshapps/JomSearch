@@ -83,7 +83,7 @@ const Index = () => {
           <div className="text-center max-w-3xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8 mt-16">
               <div className="bg-card rounded-xl p-6 shadow-search hover:shadow-search-hover transition-all duration-300 hover:scale-105">
-                <div className="bg-primary/10 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <div className="bg-yellow-500/10 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
