@@ -53,7 +53,7 @@ const Index = () => {
         />
         <div className="relative z-10 container mx-auto px-4 py-16 md:py-24">
           <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 bg-clip-text text-transparent">
+          <h1 className="text-6xl md:text-6xl font-extrabold mb-6 tracking-tight bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 bg-clip-text text-transparent">
   JomSearch
 </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
