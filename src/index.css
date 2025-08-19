@@ -33,7 +33,7 @@
     --ring: 220 80% 56%;
 
     /* Search */
-    --search-gradient: none;         /* flat, no gradient */
+    --search-gradient: 220 80% 56%;;         /* flat, no gradient */
     --search-card: 220 80% 56%;
     --search-card-hover: 220 70% 60%;
     --search-shadow: none;
