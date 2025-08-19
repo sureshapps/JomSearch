@@ -57,7 +57,7 @@ const Index = () => {
   JomSearch
 </h1>
             <p className="text-l md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-              Discover the web with our powerful search engine
+           Search Beyond Limits
             </p>
           </div>
           
